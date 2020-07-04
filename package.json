@@ -1,0 +1,31 @@
+{
+  "name": "node-shiki",
+  "version": "1.0.0",
+  "description": "API wrapper for the https://shikimori.one/",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dddoogg226/node-shiki.git"
+  },
+  "keywords": [
+    "shikimori",
+    "api",
+    "sdk",
+    "wrapper"
+  ],
+  "author": "https://github.com/dddoogg226",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "bugs": {
+    "url": "https://github.com/dddoogg226/node-shiki/issues"
+  },
+  "homepage": "https://github.com/dddoogg226/node-shiki#readme"
+}
