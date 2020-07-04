@@ -1,5 +1,5 @@
 # node-shiki
-API wrapper for the https://shikimori.one/
+API wrapper for the [Shikimori.one](https://shikimori.one/).
 
 ### NPM
 ```
