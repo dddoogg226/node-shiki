@@ -19,13 +19,13 @@ const shiki = new Shikimori({
 shiki.setOptions({ apiUrl: 'API_URL' }) // default value 'https://shikimori.one/api'
 
 async function run() {
-  const res = await shiki.post('users/:abc_ABC/ignore', { // return value '{}'
+  const res = await shiki.post('users/:abc_ABC/ignore', {
     abc_ABC: 23456828,
     ver2: true
-    
+
     // api parameters ...
   })
-  
+
   console.log(res)
 }
 
