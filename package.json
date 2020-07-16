@@ -1,6 +1,6 @@
 {
   "name": "node-shiki",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "API wrapper for the https://shikimori.one/",
   "main": "index.js",
   "directories": {
