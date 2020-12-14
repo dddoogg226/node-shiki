@@ -11,12 +11,12 @@ npm i node-shiki
 const Shikimori = require('node-shiki')
 
 const shiki = new Shikimori({
-  appName: 'APPLICATION_NAME', // default value 'null'
-  token: 'ACCESS_TOKEN', // default value 'null'
-  ver2: false // default value 'true'
+  appName: 'APPLICATION_NAME',
+  token: 'ACCESS_TOKEN',
+  ver2: false
 })
 
-shiki.setOptions({ apiUrl: 'API_URL' }) // default value 'https://shikimori.one/api'
+shiki.setOptions({ apiUrl: 'API_URL' })
 
 async function run() {
   const res = await shiki.post('users/:topic_id/ignore', {
